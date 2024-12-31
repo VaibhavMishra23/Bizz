@@ -1,0 +1,163 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+#block {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+}
+
+nav input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+nav button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #003f88;
+}
+
+.cateBtn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.cateBtn button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.cateBtn button:hover {
+  background-color: #0056b3;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  transition: transform 0.2s;
+  max-width: 300px;
+  flex: 1 1 calc(33.33% - 20px);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.cardcontent {
+  padding: 15px;
+}
+
+.cardcontent a {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.cardcontent a:hover {
+  text-decoration: underline;
+}
+
+.cardcontent p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 10px 0;
+}
+
+.cardcontent button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s;
+}
+
+.cardcontent button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex: 1 1 calc(100% - 20px);
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
