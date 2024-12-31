@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Bizz/static/css/main.76f53b69.css",
+    "main.js": "/Bizz/static/js/main.5c5b2080.js",
+    "static/js/453.d6c6a5de.chunk.js": "/Bizz/static/js/453.d6c6a5de.chunk.js",
+    "index.html": "/Bizz/index.html",
+    "main.76f53b69.css.map": "/Bizz/static/css/main.76f53b69.css.map",
+    "main.5c5b2080.js.map": "/Bizz/static/js/main.5c5b2080.js.map",
+    "453.d6c6a5de.chunk.js.map": "/Bizz/static/js/453.d6c6a5de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76f53b69.css",
+    "static/js/main.5c5b2080.js"
+  ]
+}
