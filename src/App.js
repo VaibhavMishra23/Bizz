@@ -7,7 +7,7 @@ import Card from './components/Card';
 function App() {
   const[search,setSearch]=useState("india");
   const[newsdata,setNewsdata]=useState(null);
-  const API_KEY="05dc36255d254b3085e66a855ac5cf6b";
+  const API_KEY='6a3dc9c13f8e4ccc9367a4a2f78b2edc';
   const getData = async()=>{
     const response = await fetch(`https://newsapi.org/v2/everything?q=${search}&apiKey=${API_KEY}`);
     const data =  await response.json();
